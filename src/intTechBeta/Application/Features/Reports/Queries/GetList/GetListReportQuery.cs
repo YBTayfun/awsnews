@@ -1,6 +1,5 @@
 using Application.Services.Repositories;
 using AutoMapper;
-using Domain.Entities;
 using Core.Application.Requests;
 using Core.Application.Responses;
 using Core.Persistence.Paging;

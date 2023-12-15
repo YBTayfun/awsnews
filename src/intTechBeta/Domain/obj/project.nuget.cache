@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dsyUpzvLXVNcGWMk65zw9Xi5wDk7668kdFTtZt7CPUDRo5DvxlcwdIiH8LOvciwLpMZTnDIiKawoWa6p+9yqVQ==",
+  "dgSpecHash": "jhI/opZba7/xjKZDV3IoOBSmPXDQPtIaDlcoylB2KsDZJUH8auPp4WU4KClNus56yY0XycQOSExpvGTvddCgsQ==",
   "success": true,
-  "projectFilePath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj",
+  "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/Users/yigit/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

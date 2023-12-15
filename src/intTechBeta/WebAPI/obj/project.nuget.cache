@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1u0r64rSbTkCnd1HPibRSmkmqdJuA++CScbj0UbRWLyprUAOOCqFBGJB276zrfIClmqRpMeeAaxr9vZOiNfUw==",
+  "dgSpecHash": "Rxq+vhM1G/8J9g0J/X0jzLFk1oE15rxXqbCuZOE8rNqsrYH8xEyAPbhcBZdT4rm59TwK0vRDwwJZRavIH3+sdA==",
   "success": true,
-  "projectFilePath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/WebAPI/WebAPI.csproj",
+  "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/yigit/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/yigit/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

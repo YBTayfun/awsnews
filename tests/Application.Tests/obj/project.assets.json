@@ -11269,11 +11269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/tests/Application.Tests/Application.Tests.csproj",
+      "projectUniqueName": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
       "projectName": "Application.Tests",
-      "projectPath": "/Users/yigit/Projects/IntTechBeta/tests/Application.Tests/Application.Tests.csproj",
+      "projectPath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
       "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/Projects/IntTechBeta/tests/Application.Tests/obj/",
+      "outputPath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yigit/.nuget/NuGet/NuGet.Config"
@@ -11288,11 +11288,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Test/Core.Test.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Test/Core.Test.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Test/Core.Test.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Test/Core.Test.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Persistence/Persistence.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Persistence/Persistence.csproj"
+            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj"
             }
           }
         }

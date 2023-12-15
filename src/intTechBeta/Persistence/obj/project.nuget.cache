@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gUjNN1NbkhGWlVfZBobjS4rK07fXGytReUFi/o56ywyBMJP/ppDWhcUqsS6B0Tj9pAZwCS9mdDXPMI6J36WaiA==",
+  "dgSpecHash": "3RFna49WWwUywwL4lRz51SVYfXU0V5W0Nku9gHxU1GSVivcY1+rlgOO5EwSW1ZsAem7AeZe1MtAQIxmD+C54Lg==",
   "success": true,
-  "projectFilePath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Persistence/Persistence.csproj",
+  "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/yigit/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/yigit/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

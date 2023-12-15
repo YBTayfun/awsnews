@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FK/6ayrO6XLCpRl/Wttt4/rb8sMeJq0VIK07c/LmVZ9U/lMUIrJ5eJo4lqldI0gw/XFekautIjVbo2iihQk8TQ==",
+  "dgSpecHash": "VA2h2bPhovcszVlxKMt2jkhwtHworm3DoXhjOL07mC+EYbfZLUFQ3uDaS4b3L9OBWtq63CGeaALPaZxRt/SOgA==",
   "success": true,
-  "projectFilePath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/yigit/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/yigit/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

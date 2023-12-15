@@ -49,6 +49,7 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         seeds.Add(new OperationClaim { Id = ++id, Name = "AiReports.Add" });
         seeds.Add(new OperationClaim { Id = ++id, Name = "AiReports.Update" });
         seeds.Add(new OperationClaim { Id = ++id, Name = "AiReports.Delete" });
+        #endregion
         return seeds;
     }
 }

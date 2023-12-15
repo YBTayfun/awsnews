@@ -6763,11 +6763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/WebAPI/WebAPI.csproj",
+      "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
       "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/WebAPI/obj/",
+      "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yigit/.nuget/NuGet/NuGet.Config"
@@ -6782,20 +6782,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Mailing/Core.Mailing.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.WebAPI/Core.WebAPI.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.WebAPI/Core.WebAPI.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.WebAPI/Core.WebAPI.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.WebAPI/Core.WebAPI.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Application/Application.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Application/Application.csproj"
+            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Infrastructure/Infrastructure.csproj"
+            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Persistence/Persistence.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Persistence/Persistence.csproj"
+            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj"
             }
           }
         }

@@ -2,7 +2,6 @@ using Application.Features.AiReports.Constants;
 using Application.Features.AiReports.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
-using Domain.Entities;
 using MediatR;
 
 namespace Application.Features.AiReports.Commands.Delete;

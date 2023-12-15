@@ -2,7 +2,6 @@ using Application.Features.Reports.Constants;
 using Application.Services.Repositories;
 using Core.Application.Rules;
 using Core.CrossCuttingConcerns.Exceptions.Types;
-using Domain.Entities;
 
 namespace Application.Features.Reports.Rules;
 

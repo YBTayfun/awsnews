@@ -7067,11 +7067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Application/Application.csproj",
+      "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Application/Application.csproj",
+      "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj",
       "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Application/obj/",
+      "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yigit/.nuget/NuGet/NuGet.Config"
@@ -7086,23 +7086,23 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Application/Core.Application.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Application/Core.Application.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Mailing/Core.Mailing.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj"
+            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj"
             },
-            "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj": {
-              "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj"
+            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj": {
+              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj"
             }
           }
         }

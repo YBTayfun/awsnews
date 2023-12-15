@@ -1,7 +1,6 @@
 using Application.Features.Reports.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
-using Domain.Entities;
 using MediatR;
 
 namespace Application.Features.Reports.Queries.GetById;

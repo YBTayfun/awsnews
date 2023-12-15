@@ -5,7 +5,6 @@ using Application.Features.AiReports.Queries.GetById;
 using Application.Features.AiReports.Queries.GetList;
 using AutoMapper;
 using Core.Application.Responses;
-using Domain.Entities;
 using Core.Persistence.Paging;
 
 namespace Application.Features.AiReports.Profiles;
