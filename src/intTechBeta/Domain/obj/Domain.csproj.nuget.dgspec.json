@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj",
+        "projectName": "Kodlamaio.NArchitecture.Core.Persistence",
+        "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj",
+        "projectName": "Kodlamaio.NArchitecture.Core.Security",
+        "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+                "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            },
+            "Otp.NET": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/Domain.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/Projects/IntTechBeta/src/intTechBeta/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+                "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Persistence/Core.Persistence.csproj"
+              },
+              "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj": {
+                "projectPath": "/Users/yigit/Projects/IntTechBeta/src/corePackages/Core.Security/Core.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
