@@ -298,3 +298,4 @@
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/obj/Debug/net7.0/WebAPI.csproj.CopyComplete
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/obj/Debug/net7.0/WebAPI.genruntimeconfig.cache
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll
+/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/bin/Debug/net7.0/OpenAI_API.dll

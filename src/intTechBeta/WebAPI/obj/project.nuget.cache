@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rxq+vhM1G/8J9g0J/X0jzLFk1oE15rxXqbCuZOE8rNqsrYH8xEyAPbhcBZdT4rm59TwK0vRDwwJZRavIH3+sdA==",
+  "dgSpecHash": "c5V2sfgq+bn8m1tmi6sd9Xvh+26Z8GZji0uJhATBBiEotuqc/ee5frIaaovNc1e8yEia1nHP8byMVIN/WYJ0ow==",
   "success": true,
   "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -42,12 +42,12 @@
     "/Users/yigit/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore/7.0.12/microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.12/microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.12/microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.design/7.0.5/microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.5/microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.5/microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.12/microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.5/microsoft.entityframeworkcore.sqlserver.7.0.5.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.5/microsoft.entityframeworkcore.tools.7.0.5.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -62,6 +62,7 @@
     "/Users/yigit/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.2.0/microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.hosting.abstractions/2.2.0/microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.extensions.http/2.1.0/microsoft.extensions.http.2.1.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.extensions.objectpool/2.2.0/microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
@@ -91,8 +92,9 @@
     "/Users/yigit/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/yigit/.nuget/packages/nest/7.17.5/nest.7.17.5.nupkg.sha512",
     "/Users/yigit/.nuget/packages/nest.jsonnetserializer/7.17.5/nest.jsonnetserializer.7.17.5.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/yigit/.nuget/packages/npgsql/5.0.5/npgsql.5.0.5.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/openai/1.10.0/openai.1.10.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/otp.net/1.3.0/otp.net.1.3.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/pipelines.sockets.unofficial/2.2.0/pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/rabbitmq.client/6.0.0/rabbitmq.client.6.0.0.nupkg.sha512",
@@ -149,9 +151,9 @@
     "/Users/yigit/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/yigit/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.14/microsoft.netcore.app.host.osx-arm64.7.0.14.nupkg.sha512"
+    "/Users/yigit/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.14/microsoft.netcore.app.host.osx-arm64.7.0.14.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

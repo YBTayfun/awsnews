@@ -4235,6 +4235,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
@@ -11373,5 +11374,16 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Microsoft.EntityFrameworkCore paketi için 7.0.12 sürümünden 7.0.5 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

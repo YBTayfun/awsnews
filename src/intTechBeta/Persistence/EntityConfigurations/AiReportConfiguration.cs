@@ -20,12 +20,15 @@ public class AiReportConfiguration : IEntityTypeConfiguration<AiReport>
         builder.Property(ar => ar.Country).HasColumnName("Country");
         builder.Property(ar => ar.City).HasColumnName("City");
         builder.Property(ar => ar.Region).HasColumnName("Region");
-        builder.Property(ar => ar.ReportDate).HasColumnName("ReportDate");
         builder.Property(ar => ar.Source).HasColumnName("Source");
         builder.Property(ar => ar.CreatedDate).HasColumnName("CreatedDate").IsRequired();
         builder.Property(ar => ar.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(ar => ar.DeletedDate).HasColumnName("DeletedDate");
 
         builder.HasQueryFilter(ar => !ar.DeletedDate.HasValue);
+
+        builder.HasOne(ar => ar.Report)
+            .WithOne(r => r.AiReport)
+            .HasForeignKey<AiReport>(ar => ar.ReportId);
     }
 }

@@ -6,6 +6,8 @@ using Application.Features.Reports.Queries.GetList;
 using Core.Application.Requests;
 using Core.Application.Responses;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Persistence.Contexts;
 
 namespace WebAPI.Controllers;
 
@@ -13,6 +15,14 @@ namespace WebAPI.Controllers;
 [ApiController]
 public class ReportsController : BaseController
 {
+    private readonly BaseDbContext _context;
+    private readonly IAiService _aiService;
+
+    public ReportsController(BaseDbContext context,IAiService aiService)
+    {
+        _aiService = aiService;
+        _context = context;
+    }
     [HttpPost]
     public async Task<IActionResult> Add([FromBody] CreateReportCommand createReportCommand)
     {
@@ -50,5 +60,65 @@ public class ReportsController : BaseController
         GetListReportQuery getListReportQuery = new() { PageRequest = pageRequest };
         GetListResponse<GetListReportListItemDto> response = await Mediator.Send(getListReportQuery);
         return Ok(response);
+    }
+    [HttpPost("UploadJsonFile")]
+    public IActionResult UploadJsonFile(IFormFile file)
+    {
+        try
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("Dosya yüklenemedi.");
+            }
+
+            using (var stream = new StreamReader(file.OpenReadStream()))
+            {
+                var json = stream.ReadToEnd();
+                var reports = JsonConvert.DeserializeObject<List<ReportDto>>(json);
+
+
+                if (reports == null || !reports.Any())
+                {
+                    return BadRequest("Geçersiz veri.");
+                }
+
+                foreach (var report in reports)
+                {
+                    _context.Reports.Add(new Report
+                    {
+                        Id = Guid.NewGuid(),
+                        Title = report.Title,
+                        Link = report.Link,
+                        Description = report.Description,
+                        ReportDate = DateTime.UtcNow
+                    });
+                }
+
+                _context.SaveChanges();
+            }
+
+            return Ok("JSON dosyasındaki veriler başarıyla veritabanına eklendi.");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Veri tabanına ekleme hatası: {ex.Message}");
+        }
+    }
+    [HttpGet("processReportGpt")]
+    public async Task<IActionResult> ProcessReportGpt()
+    {
+        try
+        {   
+            Report? report = _context.Reports.FirstOrDefault( c => c .Id.Equals(new  Guid("3841e613-c9d7-4bc2-a324-07d86df8fcab")));
+            AiReport AiReport = await _aiService.GetAiReportAsync(report);
+
+            _context.AiReports.Add(AiReport);
+            _context.SaveChanges();
+            return Ok("ReportGpt processing completed successfully.");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"An error occurred: {ex.Message}");
+        }
     }
 }

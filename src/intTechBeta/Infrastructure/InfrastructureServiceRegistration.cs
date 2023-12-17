@@ -8,6 +8,7 @@ public static class InfrastructureServiceRegistration
 {
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services)
     {
+        services.AddScoped<IAiService,ChatGptOpenAIService >();
         services.AddScoped<ImageServiceBase, CloudinaryImageServiceAdapter>();
         return services;
     }

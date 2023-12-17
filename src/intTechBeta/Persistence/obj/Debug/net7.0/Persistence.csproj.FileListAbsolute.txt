@@ -58,3 +58,5 @@
 /Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/bin/Debug/net7.0/Core.Security.pdb
 /Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
 /Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/obj/Debug/net7.0/ref/Persistence.dll
+/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/bin/Debug/net7.0/Persistence.runtimeconfig.json
+/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/obj/Debug/net7.0/Persistence.genruntimeconfig.cache

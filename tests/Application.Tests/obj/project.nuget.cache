@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "gS2hijMfnU+bVyI5rBVxP5NpwfnIpv0g1HoP96W7JHSrlVNn16Vpo2XgEZjw6QCtfU4qMYofzqHRutVEWTphmA==",
-  "success": true,
+  "dgSpecHash": "p0f6jbKjfRmfJt4HYdBwi8SeVu/AyiUtuyFujj0uBr+89qyL3wyO/xTsekAh3Xe8Yi4h9/06fUGbshP4ZYJVbQ==",
+  "success": false,
   "projectFilePath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/yigit/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
@@ -226,5 +226,15 @@
     "/Users/yigit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "/Users/yigit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Microsoft.EntityFrameworkCore paketi için 7.0.12 sürümünden 7.0.5 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

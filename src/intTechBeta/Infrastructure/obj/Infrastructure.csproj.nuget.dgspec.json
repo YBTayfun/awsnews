@@ -748,6 +748,10 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.20.0, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.10.0, )"
             }
           },
           "imports": [
