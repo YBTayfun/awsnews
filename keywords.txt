@@ -1,0 +1,353 @@
+terör
+saldırı
+örgüt
+güvenlik
+tehdit
+radikalleşme
+bomba
+bombalama
+istihbarat
+operasyon
+cihat
+savaş
+islamcı terör
+kaçırma
+havaalanı güvenliği
+terör finansmanı
+terör propagandası
+intihar saldırısı
+şehir güvenliği
+askeri operasyon
+tehdit seviyesi
+terör lideri
+terörist hücreler 
+terör hücreleri
+terörle mücadele
+islamcı militanlar
+el kaide
+işid
+pkk
+dhkp-c
+terörist saldırı
+kırmızı bülten
+mavi liste
+yeşil liste
+kırmızı liste
+turuncu liste
+gri liste
+terörle mücadele
+tsk
+türk silahli kuvvetleri
+ölü
+yaralı
+silahlı çatışma
+savaş
+cephe hattı
+barış görüşmeleri
+hava saldırısı
+işgal
+ateşkes
+askeri darbe
+siper
+cephe hattı
+sivil katliam
+savaş suçları
+cephe haberleşmesi
+askeri strateji
+toplu mezarlar
+askeri operasyonlar
+cephe savaşı
+insansız hava araçları 
+iha
+özel kuvvetler
+güvenlik konseyi
+çatışma bölgeleri
+sivil savunma
+sivil halkın korunması
+cephe hatları
+cephe saldırıları
+güvenlik politikası
+güvenlik stratejisi
+savaş suçları mahkemesi
+ulusal güvenlik
+askeri liderlik
+çatışma bölgesi
+savaş mültecileri
+çatışma çözümü
+barış süreci
+çatışma analizi
+barış anlaşması
+militan gruplar
+çatışma tarafları
+askeri operasyon planları
+silahlı kuvvetler
+askeri stratejik hedefler
+cephe hatlarındaki değişimler
+cephe hatlarındaki gelişmeler
+çatışma izleme
+çatışma raporları
+savaş bölgesi
+çatışma durumu
+görev gücü
+askeri çatışma bölgeleri
+cinayet
+hırsızlık
+soygun
+taciz
+silahlı saldırı
+infaz
+sokak kavgası
+cinayet soruşturması
+silahlı saldırgan
+silahlı soygun
+suç olayı
+silah kullanımı
+cinayet suçlaması
+silahlı saldırı anı
+güvenlik kameraları incelemesi
+polis güçleri
+cinayet mahkemesi
+protesto
+gösteri
+çatışma
+sokak olayları
+toplumsal huzursuzluk
+eylem
+barikat
+grev
+toplumsal çalkantı
+sivil itaatsizlik
+halk hareketi
+sokak çatışması
+göstericiler
+polis karşıtı eylemler
+güvenlik kuvvetleri
+barışçıl protesto
+güvenlik önlemleri
+toplumsal direniş
+devrim
+toplum isyanı
+hükümet karşıtı protesto
+sivil haklar
+gösteri izni
+toplumsal talepler
+halkın sesi
+demokrasi talepleri
+sivil toplum örgütleri
+sokak gösterileri
+toplumsal değişim
+çatışma bölgesi
+olay yeri raporu
+kitle hareketi
+toplumsal reform
+gösteri liderleri
+sokak çatışmaları
+olay yeri görgü tanıkları
+çatışma analizi
+toplumsal mücadele
+sokak çatışması
+toplumsal çatışma çözümü
+sokak gösterisi
+toplumun sesi
+göstericilerin talepleri
+barış mücadelesi
+toplumsal hareket
+sokak olayları güvenliği
+çatışma çözümü stratejileri
+suç örgütü
+kaçakçılık
+uyuşturucu ticareti
+şantaj
+rüşvet
+kaçakçılık
+silahlı soygun
+suç ağı
+organize suçlar
+kaçakçılık
+suç lideri
+kaçakçılık operasyonu
+mafya
+suç örgütü lideri
+rakip çeteler
+kaçak mal ticareti
+yasa dışı bahis
+kara para aklama
+organize suç operasyonu
+zimmete para geçirme
+kaçakçılık şebekesi
+suç örgütü üyeleri
+kaçak mal ticareti
+suç örgütü finansmanı
+kara para aklama operasyonu
+uyuşturucu karteli
+rakip suç örgütleri
+suç örgütü elemanları
+kaçırma olayı
+tezgahçılık
+organize suç soruşturması
+cinayet siparişi
+kaçak silah ticareti
+uyuşturucu ticareti operasyonu
+rakip mafya grupları
+suçla mücadele birimleri
+kaçakçılık faaliyetleri
+suç örgütü üyeleri
+suç örgütü lideri yakalandı
+organize suçlar birimi
+kaçak mal depoları
+suç örgütü toplantısı
+suç örgütü üyelerinin tutuklanması
+kaçak mal depoları operasyonu
+suç örgütü elemanlarının yakalanması
+koruma parası
+silahlı soygun planları
+uyuşturucu operasyonu
+suç örgütü liderinin izini sürmek
+kaçak mal ticareti operasyonu
+olay
+polis müdahalesi
+gözaltı
+kaçış
+şüpheli
+hırsızlık
+cinayet
+silahlı saldırı
+sokak olayları
+olay yeri güvenliği
+soruşturma
+polis operasyonu
+olay yeri inceleme
+polis ekipleri
+polis bildirisi
+güvenlik önlemleri
+olay yeri delilleri
+görgü tanıkları
+olay yeri raporu
+asayiş olayları
+suçlu yakalama
+polis mücadelesi
+güvenlik güçleri
+polis birimleri
+olay yeri görgü tanıkları
+polis güçleri
+görgü tanığı ifadesi
+olay yeri analizi
+şüpheli gözaltına alındı
+polis soruşturması
+suç mahalli
+caddede kovalamaca
+polis operasyonları
+kaçak mal ticareti operasyonu
+olay yeri güvenlik kameraları
+olay yeri güvenlik kameraları görüntüleri
+polis bildirisi
+olay yeri operasyonu
+polis kontrol noktası
+asayiş birimleri
+olay yeri güvenlik kameraları incelemesi
+olay yeri raporu
+polis memuru
+polis birimleri
+asayiş müdahalesi
+polis görevlisi
+olay yeri izni
+polis kontrol noktası
+polis sorumluluğu
+asayiş olayları birimi
+siber saldırıveri sızıntısı
+bilgisayar virüsü
+şifreleme
+veri koruma
+veri ihlali
+hacker
+güvenlik açığı
+gizlilik
+güvenlik tehdidi
+çevrimiçi güvenlik
+güvenlik önlemleri
+kimlik hırsızlığı
+güvenlik yazılımı
+güvenlik ihlali
+şifre güvenliği
+bilgi güvenliği politikaları
+güvenlik duvarı
+zararlı yazılım
+çift faktörlü kimlik doğrulama
+güvenlik güncellemesi
+siber tehdit
+bilgi güvenliği stratejisi
+veri şifreleme
+güvenlik açığı analizi
+bilgisayar korsanlığı
+siber suç
+güvenlik riski
+bilgi güvenliği yönetimi
+veri güvenliği
+güvenlik denetimi
+siber saldırı önleme
+güvenlik yazılım güncellemeleri
+siber güvenlik uzmanları
+bilgi güvenliği yönergeleri
+güvenlik ihlali analizi
+bilgi güvenliği planları
+güvenlik yazılımı güncellemeleri
+güvenlik güncellemeleri
+olay
+güvenlik
+acil durum
+incident
+kriz
+durum
+vaka
+olay yeri
+müdahale
+tehlike
+polis memuru
+gözaltına alma
+polis mücadelesi
+soruşturma
+olay yeri inceleme
+polis operasyonu
+suç mahalli
+güvenlik birimleri
+polis müdahale taktikleri
+görgü tanıkları
+olay yeri güvenliği
+olay yeri raporu
+güvenlik kameraları
+güvenlik kameraları incelemesi
+olay yeri delilleri
+güvenlik planları
+suç analizi
+güvenlik önlemleri
+güvenlik güçleri
+sokak kapatmalar
+silah
+silahlı saldırı
+ateşli silah
+tabanca
+bıçaklı saldırı
+silah kullanımı
+ateş etme
+silah taşıma
+silah ruhsatı
+silahsızlanma
+görgü tanığı
+görgü tanığı ifadesi
+tanık koruma
+tanıklık
+ifade
+görgü tanıkları
+görgü tanığı raporu
+mahkeme ifadesi
+şahitlik
+ceza mahkemesi
+savcı
+mahkeme
+avukat
+cezaevi
+tutuklu
+kaçak
+cezai sorumluluk
+hapis cezası
+hüküm
