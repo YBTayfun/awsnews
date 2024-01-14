@@ -7214,19 +7214,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yigit/.nuget/packages/": {}
+    "C:\\Users\\egeme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj",
-      "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/obj/",
+      "projectPath": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
+      "outputPath": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -7238,8 +7238,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj"
+            "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj": {
+              "projectPath": "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj"
             }
           }
         }
@@ -7274,22 +7274,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

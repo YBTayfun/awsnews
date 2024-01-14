@@ -6828,19 +6828,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yigit/.nuget/packages/": {}
+    "C:\\Users\\egeme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "E:\\IntTech\\src\\intTechBeta\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
-      "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/obj/",
+      "projectPath": "E:\\IntTech\\src\\intTechBeta\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
+      "outputPath": "E:\\IntTech\\src\\intTechBeta\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6852,20 +6852,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj"
+            "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj": {
+              "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj"
             },
-            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.WebAPI/Core.WebAPI.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.WebAPI/Core.WebAPI.csproj"
+            "E:\\IntTech\\src\\corePackages\\Core.WebAPI\\Core.WebAPI.csproj": {
+              "projectPath": "E:\\IntTech\\src\\corePackages\\Core.WebAPI\\Core.WebAPI.csproj"
             },
-            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj"
+            "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj": {
+              "projectPath": "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj"
             },
-            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj"
+            "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj"
             },
-            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj"
+            "E:\\IntTech\\src\\intTechBeta\\Persistence\\Persistence.csproj": {
+              "projectPath": "E:\\IntTech\\src\\intTechBeta\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -6926,20 +6926,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6948,7 +6934,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

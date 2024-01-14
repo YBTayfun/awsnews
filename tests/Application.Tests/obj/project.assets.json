@@ -11265,19 +11265,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yigit/.nuget/packages/": {}
+    "C:\\Users\\egeme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
+      "projectUniqueName": "E:\\IntTech\\tests\\Application.Tests\\Application.Tests.csproj",
       "projectName": "Application.Tests",
-      "projectPath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
-      "packagesPath": "/Users/yigit/.nuget/packages/",
-      "outputPath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/obj/",
+      "projectPath": "E:\\IntTech\\tests\\Application.Tests\\Application.Tests.csproj",
+      "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
+      "outputPath": "E:\\IntTech\\tests\\Application.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yigit/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -11289,11 +11289,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Test/Core.Test.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Test/Core.Test.csproj"
+            "E:\\IntTech\\src\\corePackages\\Core.Test\\Core.Test.csproj": {
+              "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Test\\Core.Test.csproj"
             },
-            "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj": {
-              "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj"
+            "E:\\IntTech\\src\\intTechBeta\\Persistence\\Persistence.csproj": {
+              "projectPath": "E:\\IntTech\\src\\intTechBeta\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -11356,22 +11356,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11379,7 +11369,7 @@
     {
       "code": "NU1605",
       "level": "Error",
-      "message": "Warning As Error: Microsoft.EntityFrameworkCore paketi için 7.0.12 sürümünden 7.0.5 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.12 to 7.0.5. Reference the package directly from the project to select a different version. \r\n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \r\n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net7.0"
