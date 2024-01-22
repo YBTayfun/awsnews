@@ -11361,7 +11361,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   },
@@ -11369,7 +11373,11 @@
     {
       "code": "NU1605",
       "level": "Error",
+<<<<<<< Updated upstream
       "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.12 to 7.0.5. Reference the package directly from the project to select a different version. \r\n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \r\n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
+=======
+      "message": "Microsoft.EntityFrameworkCore paketi için 7.0.12 sürümünden 7.0.5 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \n Application.Tests -> Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.12) \n Application.Tests -> Microsoft.EntityFrameworkCore (>= 7.0.5)",
+>>>>>>> Stashed changes
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net7.0"
