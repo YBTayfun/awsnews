@@ -35,6 +35,7 @@ def parse_rss_to_json(rss_url, output_file, keywords):
                 'description': description
             }
             existing_items.append(item)
+            
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(existing_items, f, ensure_ascii=False, indent=4)
