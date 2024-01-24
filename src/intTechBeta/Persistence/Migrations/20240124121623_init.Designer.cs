@@ -12,8 +12,8 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20231216213904_Initial2")]
-    partial class Initial2
+    [Migration("20240124121623_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -95,6 +95,9 @@ namespace Persistence.Migrations
                         .HasColumnName("UpdatedDate");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ReportId")
+                        .IsUnique();
 
                     b.ToTable("AiReports", (string)null);
                 });
@@ -422,8 +425,8 @@ namespace Persistence.Migrations
                             Email = "admin@admin.com",
                             FirstName = "Admin",
                             LastName = "NArchitecture",
-                            PasswordHash = new byte[] { 23, 64, 155, 20, 150, 183, 148, 29, 163, 105, 227, 242, 26, 157, 75, 70, 246, 126, 80, 74, 173, 106, 87, 49, 50, 172, 109, 22, 135, 133, 248, 159, 193, 138, 121, 115, 139, 234, 200, 188, 125, 0, 161, 154, 79, 144, 26, 133, 161, 214, 224, 224, 116, 119, 208, 70, 148, 12, 118, 91, 160, 229, 128, 204 },
-                            PasswordSalt = new byte[] { 132, 248, 52, 206, 193, 245, 39, 238, 61, 237, 103, 225, 106, 120, 7, 150, 215, 216, 228, 184, 229, 125, 249, 227, 70, 34, 35, 20, 198, 232, 78, 185, 7, 129, 90, 137, 81, 192, 72, 229, 170, 153, 209, 220, 132, 224, 155, 15, 251, 254, 235, 10, 14, 28, 17, 47, 218, 159, 107, 127, 16, 72, 117, 102, 208, 103, 66, 207, 246, 207, 220, 115, 171, 218, 152, 146, 82, 124, 121, 191, 117, 20, 193, 191, 207, 83, 90, 168, 104, 137, 177, 91, 217, 95, 8, 65, 33, 12, 132, 215, 182, 93, 111, 8, 175, 145, 17, 73, 48, 212, 84, 93, 25, 13, 132, 250, 32, 180, 143, 95, 33, 149, 204, 15, 88, 155, 74, 192 },
+                            PasswordHash = new byte[] { 27, 62, 239, 222, 51, 158, 118, 199, 153, 186, 50, 36, 25, 58, 158, 177, 203, 192, 39, 168, 132, 74, 179, 70, 20, 39, 226, 201, 210, 97, 141, 242, 118, 33, 152, 216, 1, 19, 122, 25, 152, 33, 181, 7, 125, 28, 104, 7, 154, 123, 107, 213, 218, 0, 9, 217, 117, 231, 184, 40, 50, 126, 80, 148 },
+                            PasswordSalt = new byte[] { 218, 250, 68, 186, 101, 202, 49, 224, 229, 58, 254, 255, 2, 104, 65, 199, 108, 246, 82, 9, 225, 69, 219, 141, 125, 162, 248, 91, 111, 17, 63, 95, 9, 166, 44, 165, 230, 210, 245, 9, 197, 1, 204, 75, 236, 175, 140, 199, 21, 207, 80, 25, 48, 66, 50, 222, 222, 13, 34, 86, 204, 195, 200, 26, 64, 107, 186, 28, 84, 254, 131, 213, 216, 251, 56, 161, 120, 191, 99, 165, 213, 157, 153, 36, 41, 98, 50, 118, 3, 199, 239, 199, 150, 97, 119, 107, 237, 227, 155, 73, 250, 46, 16, 58, 69, 65, 234, 139, 220, 57, 234, 164, 106, 149, 248, 226, 136, 233, 0, 146, 103, 133, 108, 52, 199, 150, 47, 217 },
                             Status = true
                         });
                 });
@@ -518,6 +521,17 @@ namespace Persistence.Migrations
                     b.ToTable("Reports", (string)null);
                 });
 
+            modelBuilder.Entity("AiReport", b =>
+                {
+                    b.HasOne("Report", "Report")
+                        .WithOne("AiReport")
+                        .HasForeignKey("AiReport", "ReportId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Report");
+                });
+
             modelBuilder.Entity("Core.Security.Entities.EmailAuthenticator", b =>
                 {
                     b.HasOne("Core.Security.Entities.User", "User")
@@ -584,6 +598,11 @@ namespace Persistence.Migrations
                     b.Navigation("RefreshTokens");
 
                     b.Navigation("UserOperationClaims");
+                });
+
+            modelBuilder.Entity("Report", b =>
+                {
+                    b.Navigation("AiReport");
                 });
 #pragma warning restore 612, 618
         }

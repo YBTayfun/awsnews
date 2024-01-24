@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -37,6 +37,7 @@ namespace Persistence.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Link = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ReportDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     DeletedDate = table.Column<DateTime>(type: "datetime2", nullable: true)
@@ -83,7 +84,6 @@ namespace Persistence.Migrations
                     Country = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     City = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Region = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ReportDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Source = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -229,7 +229,7 @@ namespace Persistence.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AuthenticatorType", "CreatedDate", "DeletedDate", "Email", "FirstName", "LastName", "PasswordHash", "PasswordSalt", "Status", "UpdatedDate" },
-                values: new object[] { 1, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), null, "admin@admin.com", "Admin", "NArchitecture", new byte[] { 155, 112, 92, 91, 164, 99, 167, 197, 109, 173, 151, 168, 236, 59, 170, 171, 71, 125, 200, 225, 131, 76, 169, 31, 174, 143, 69, 131, 161, 228, 184, 156, 27, 75, 216, 149, 136, 38, 74, 128, 56, 236, 204, 125, 87, 213, 145, 245, 26, 52, 8, 108, 95, 88, 83, 123, 198, 187, 199, 190, 222, 219, 241, 184 }, new byte[] { 197, 118, 146, 66, 216, 23, 65, 240, 48, 197, 128, 238, 22, 118, 132, 215, 195, 240, 119, 236, 160, 21, 38, 136, 126, 226, 65, 93, 32, 187, 157, 48, 158, 222, 53, 174, 61, 26, 188, 67, 12, 29, 163, 220, 205, 221, 242, 216, 79, 162, 180, 227, 67, 115, 16, 162, 152, 209, 192, 135, 85, 118, 233, 142, 200, 48, 244, 146, 35, 125, 248, 121, 249, 79, 23, 159, 96, 61, 28, 179, 238, 148, 220, 206, 214, 201, 147, 78, 176, 187, 82, 237, 158, 198, 160, 134, 227, 111, 251, 173, 50, 74, 37, 98, 117, 244, 193, 180, 132, 117, 186, 151, 165, 39, 93, 55, 162, 208, 213, 161, 211, 110, 97, 247, 46, 12, 162, 219 }, true, null });
+                values: new object[] { 1, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), null, "admin@admin.com", "Admin", "NArchitecture", new byte[] { 27, 62, 239, 222, 51, 158, 118, 199, 153, 186, 50, 36, 25, 58, 158, 177, 203, 192, 39, 168, 132, 74, 179, 70, 20, 39, 226, 201, 210, 97, 141, 242, 118, 33, 152, 216, 1, 19, 122, 25, 152, 33, 181, 7, 125, 28, 104, 7, 154, 123, 107, 213, 218, 0, 9, 217, 117, 231, 184, 40, 50, 126, 80, 148 }, new byte[] { 218, 250, 68, 186, 101, 202, 49, 224, 229, 58, 254, 255, 2, 104, 65, 199, 108, 246, 82, 9, 225, 69, 219, 141, 125, 162, 248, 91, 111, 17, 63, 95, 9, 166, 44, 165, 230, 210, 245, 9, 197, 1, 204, 75, 236, 175, 140, 199, 21, 207, 80, 25, 48, 66, 50, 222, 222, 13, 34, 86, 204, 195, 200, 26, 64, 107, 186, 28, 84, 254, 131, 213, 216, 251, 56, 161, 120, 191, 99, 165, 213, 157, 153, 36, 41, 98, 50, 118, 3, 199, 239, 199, 150, 97, 119, 107, 237, 227, 155, 73, 250, 46, 16, 58, 69, 65, 234, 139, 220, 57, 234, 164, 106, 149, 248, 226, 136, 233, 0, 146, 103, 133, 108, 52, 199, 150, 47, 217 }, true, null });
 
             migrationBuilder.InsertData(
                 table: "UserOperationClaims",

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj": {}
+    "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\IntTech\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.Application",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Application\\Core.Application.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.Application\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj"
               }
             }
           }
@@ -77,30 +77,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.CrossCuttingConcerns",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -188,30 +194,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.ElasticSearch",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -267,30 +279,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.Mailing",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.Mailing\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -342,30 +360,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.Persistence",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.Persistence\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -409,30 +433,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj",
         "projectName": "Kodlamaio.NArchitecture.Core.Security",
-        "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\corePackages\\Core.Security\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -444,8 +474,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj"
               }
             }
           }
@@ -492,30 +522,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\intTechBeta\\Application\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -527,23 +563,23 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\IntTech\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Application\\Core.Application.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Application/Core.Application.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Mailing/Core.Mailing.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj"
               },
-              "E:\\IntTech\\src\\intTechBeta\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\IntTech\\src\\intTechBeta\\Domain\\Domain.csproj"
+              "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj"
               }
             }
           }
@@ -566,6 +602,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
@@ -582,30 +622,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\intTechBeta\\Domain\\Domain.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\intTechBeta\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\IntTech\\src\\intTechBeta\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\intTechBeta\\Domain\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/Domain.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -617,11 +663,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Persistence/Core.Persistence.csproj"
               },
-              "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
-                "projectPath": "E:\\IntTech\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/corePackages/Core.Security/Core.Security.csproj"
               }
             }
           }
@@ -646,30 +692,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj": {
+    "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\egeme\\.nuget\\packages\\",
-        "outputPath": "E:\\IntTech\\src\\intTechBeta\\Infrastructure\\obj\\",
+        "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/yigit/.nuget/packages/",
+        "outputPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\egeme\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yigit/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -681,8 +733,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj": {
-                "projectPath": "E:\\IntTech\\src\\intTechBeta\\Application\\Application.csproj"
+              "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj": {
+                "projectPath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Application/Application.csproj"
               }
             }
           }
@@ -717,16 +769,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

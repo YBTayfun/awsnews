@@ -17,6 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using Application.Services.Reports;
 using Application.Services.AiReports;
+using Application.HangfireJobs.RecurringJobs;
 
 namespace Application;
 
@@ -24,6 +25,8 @@ public static class ApplicationServiceRegistration
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
+        services.AddHostedService<RecurringJobsServiceRegistration>();
+
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
         services.AddMediatR(configuration =>
         {

@@ -9,13 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAPI
 build_property.RootNamespace = WebAPI
-<<<<<<< Updated upstream
-build_property.ProjectDir = E:\IntTech\src\intTechBeta\WebAPI\
-=======
 build_property.ProjectDir = /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/
->>>>>>> Stashed changes
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\IntTech\src\intTechBeta\WebAPI
+build_property.MSBuildProjectDirectory = /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI
 build_property._RazorSourceGeneratorDebug = 

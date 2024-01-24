@@ -12,8 +12,8 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20231216213050_Initial")]
-    partial class Initial
+    [Migration("20240124122255_init12")]
+    partial class init12
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,10 +70,6 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Region");
-
-                    b.Property<DateTime>("ReportDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("ReportDate");
 
                     b.Property<Guid>("ReportId")
                         .HasColumnType("uniqueidentifier")
@@ -429,8 +425,8 @@ namespace Persistence.Migrations
                             Email = "admin@admin.com",
                             FirstName = "Admin",
                             LastName = "NArchitecture",
-                            PasswordHash = new byte[] { 155, 112, 92, 91, 164, 99, 167, 197, 109, 173, 151, 168, 236, 59, 170, 171, 71, 125, 200, 225, 131, 76, 169, 31, 174, 143, 69, 131, 161, 228, 184, 156, 27, 75, 216, 149, 136, 38, 74, 128, 56, 236, 204, 125, 87, 213, 145, 245, 26, 52, 8, 108, 95, 88, 83, 123, 198, 187, 199, 190, 222, 219, 241, 184 },
-                            PasswordSalt = new byte[] { 197, 118, 146, 66, 216, 23, 65, 240, 48, 197, 128, 238, 22, 118, 132, 215, 195, 240, 119, 236, 160, 21, 38, 136, 126, 226, 65, 93, 32, 187, 157, 48, 158, 222, 53, 174, 61, 26, 188, 67, 12, 29, 163, 220, 205, 221, 242, 216, 79, 162, 180, 227, 67, 115, 16, 162, 152, 209, 192, 135, 85, 118, 233, 142, 200, 48, 244, 146, 35, 125, 248, 121, 249, 79, 23, 159, 96, 61, 28, 179, 238, 148, 220, 206, 214, 201, 147, 78, 176, 187, 82, 237, 158, 198, 160, 134, 227, 111, 251, 173, 50, 74, 37, 98, 117, 244, 193, 180, 132, 117, 186, 151, 165, 39, 93, 55, 162, 208, 213, 161, 211, 110, 97, 247, 46, 12, 162, 219 },
+                            PasswordHash = new byte[] { 225, 69, 130, 72, 153, 0, 159, 146, 92, 197, 191, 142, 147, 253, 25, 244, 41, 120, 236, 108, 220, 202, 185, 95, 208, 83, 246, 225, 246, 46, 152, 184, 129, 29, 9, 129, 216, 174, 15, 68, 225, 44, 40, 130, 15, 63, 21, 177, 133, 210, 202, 26, 212, 229, 194, 157, 125, 51, 25, 89, 160, 58, 137, 47 },
+                            PasswordSalt = new byte[] { 32, 197, 118, 85, 236, 43, 29, 168, 26, 255, 11, 143, 157, 135, 212, 112, 162, 195, 153, 119, 172, 98, 108, 242, 79, 95, 6, 189, 164, 250, 41, 137, 79, 166, 54, 209, 243, 115, 229, 137, 174, 238, 7, 84, 105, 63, 211, 50, 109, 156, 135, 210, 110, 197, 53, 13, 41, 133, 110, 128, 112, 166, 42, 194, 228, 79, 246, 236, 125, 201, 213, 209, 76, 169, 154, 64, 208, 250, 190, 156, 40, 133, 159, 115, 225, 125, 42, 96, 138, 226, 178, 217, 86, 145, 17, 228, 230, 245, 167, 187, 92, 168, 2, 222, 113, 102, 184, 75, 225, 216, 12, 177, 150, 247, 34, 218, 84, 168, 58, 229, 140, 252, 84, 154, 226, 18, 226, 187 },
                             Status = true
                         });
                 });
@@ -507,6 +503,10 @@ namespace Persistence.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Link");
 
+                    b.Property<DateTime>("ReportDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("ReportDate");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
@@ -523,11 +523,13 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("AiReport", b =>
                 {
-                    b.HasOne("Report", null)
+                    b.HasOne("Report", "Report")
                         .WithOne("AiReport")
                         .HasForeignKey("AiReport", "ReportId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Report");
                 });
 
             modelBuilder.Entity("Core.Security.Entities.EmailAuthenticator", b =>
@@ -600,8 +602,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Report", b =>
                 {
-                    b.Navigation("AiReport")
-                        .IsRequired();
+                    b.Navigation("AiReport");
                 });
 #pragma warning restore 612, 618
         }

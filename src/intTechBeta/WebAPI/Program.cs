@@ -4,6 +4,7 @@ using Core.Security;
 using Core.Security.Encryption;
 using Core.Security.JWT;
 using Core.WebAPI.Extensions.Swagger;
+using Hangfire;
 using Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +12,7 @@ using Microsoft.OpenApi.Models;
 using Persistence;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using WebAPI;
+
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -85,6 +87,9 @@ if (app.Environment.IsDevelopment())
         opt.DocExpansion(DocExpansion.None);
     });
 }
+
+app.UseHangfireDashboard("/hangfire");
+
 
 if (app.Environment.IsProduction())
     app.ConfigureCustomExceptionMiddleware();
