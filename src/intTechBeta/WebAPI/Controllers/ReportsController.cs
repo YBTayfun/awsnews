@@ -74,7 +74,7 @@ public class ReportsController : BaseController
             using (var stream = new StreamReader(file.OpenReadStream()))
             {
                 var json = stream.ReadToEnd();
-                var reports = JsonConvert.DeserializeObject<List<ReportDto>>(json);
+                var reports = JsonConvert.DeserializeObject<List<Report>>(json);
 
 
                 if (reports == null || !reports.Any())
@@ -90,7 +90,7 @@ public class ReportsController : BaseController
                         Title = report.Title,
                         Link = report.Link,
                         Description = report.Description,
-                        ReportDate = DateTime.UtcNow
+                        ReportDate = report.ReportDate
                     });
                 }
 
@@ -120,5 +120,15 @@ public class ReportsController : BaseController
         {
             return StatusCode(500, $"An error occurred: {ex.Message}");
         }
+    }
+    [HttpGet("createDatasInDatabase")]
+    public async Task<IActionResult> CreateDatasInDatabase()
+    {
+        System.Console.WriteLine("1");
+        CreatedDatasInDatabaseResponse response = await Mediator.Send(new CreateDatasInDatabaseCommand());
+                System.Console.WriteLine("2");
+
+
+        return Ok(response);
     }
 }

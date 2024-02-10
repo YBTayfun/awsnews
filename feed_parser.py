@@ -55,5 +55,5 @@ rss_urls = [
 ]
 
 for rss_url in rss_urls:
-    output_file = 'feed_data1.json'  # Consider using unique filenames for each RSS feed
+    output_file = 'feed_data.json'  # Consider using unique filenames for each RSS feed
     parse_rss_to_json(rss_url, output_file, keywords)

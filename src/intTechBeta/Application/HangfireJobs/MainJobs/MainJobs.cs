@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 public  class MainJobs
 {
-    public void FeedParser()
+    public string FeedParser()
     {
         System.Console.WriteLine("sistem basarili");
         //py code
@@ -33,6 +33,10 @@ public  class MainJobs
             process.WaitForExit();
             Console.WriteLine("okuma islemi yapildi ");
         }
+
+        string JsonDirectory = Path.Combine(OutDirectory, "src","intTechBeta","WebApi","feed_data.json");
+
+        return JsonDirectory;
     }
     
 }
