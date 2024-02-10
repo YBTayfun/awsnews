@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Persistence.Contexts;
 using Persistence.Repositories;
 using Hangfire;
+using Hangfire.MemoryStorage;
 
 namespace Persistence;
 
@@ -16,8 +17,9 @@ public static class PersistenceServiceRegistration
 {
     options.UseSqlServer(configuration.GetConnectionString("BaseDb123"));
 });
-        services.AddHangfire(config =>
-                config.UseSqlServerStorage(configuration.GetConnectionString("BaseDb123")));
+services.AddHangfire(config =>
+    config.UseMemoryStorage());
+
         services.AddHangfireServer();
         services.AddScoped<IEmailAuthenticatorRepository, EmailAuthenticatorRepository>();
         services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();

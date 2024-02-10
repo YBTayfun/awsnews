@@ -469,3 +469,4 @@ E:/IntTech/src/intTechBeta/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/bin/Debug/net7.0/zh/Hangfire.Core.resources.dll
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/bin/Debug/net7.0/feed_data.json
 /Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/bin/Debug/net7.0/feed_data1.json
+/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/bin/Debug/net7.0/Hangfire.MemoryStorage.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tpxVEFTOnJ9T6jh6FPkHZTZbPrwCm63WsWisnniNc7Wbq+bZLgL4HsMF5LwwVroX8j5W9iofIAF3byDJRMJjVA==",
+  "dgSpecHash": "Xfc7smx0WKKbLB5hZx7UIZQ8U6fx+ChuUfqDfWidr0WnK2e0ATy2r/7ibhx/xtdBrKcJM3vrgIFOd0br7KHiNQ==",
   "success": true,
   "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "/Users/yigit/.nuget/packages/hangfire/1.8.9/hangfire.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.aspnetcore/1.8.9/hangfire.aspnetcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.core/1.8.9/hangfire.core.1.8.9.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/hangfire.memorystorage/1.8.0/hangfire.memorystorage.1.8.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.netcore/1.8.9/hangfire.netcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.sqlserver/1.8.9/hangfire.sqlserver.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -140,8 +141,8 @@
     "/Users/yigit/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/yigit/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/yigit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+    "/Users/yigit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

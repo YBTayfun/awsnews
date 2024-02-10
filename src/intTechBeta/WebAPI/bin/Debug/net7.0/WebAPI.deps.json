@@ -10,6 +10,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "Core.WebAPI": "1.0.0",
+          "Hangfire.MemoryStorage": "1.8.0",
           "Infrastructure": "1.0.0",
           "Kodlamaio.NArchitecture.Core.Mailing": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
@@ -243,6 +244,17 @@
           },
           "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
             "locale": "zh"
+          }
+        }
+      },
+      "Hangfire.MemoryStorage/1.8.0": {
+        "dependencies": {
+          "Hangfire.Core": "1.8.9"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Hangfire.MemoryStorage.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
           }
         }
       },
@@ -1637,6 +1649,7 @@
       "Persistence/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Hangfire.MemoryStorage": "1.8.0",
           "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
@@ -1806,6 +1819,13 @@
       "sha512": "sha512-BGVEyOfBgWR1WvpDGGh0nlRTIf5JMOHBmsYq70ektjQAlwa/hto2esVv5vCKWXOFE2x8GnuGoDksQVvAbnhRUA==",
       "path": "hangfire.core/1.8.9",
       "hashPath": "hangfire.core.1.8.9.nupkg.sha512"
+    },
+    "Hangfire.MemoryStorage/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hfLkYiIbJx5OIfHEaFI4uzlgQBANW740A4nYKbsBImSV7RVpVJ//ABvj5JF9vYEF4f+6o/qY1SV2MEqOgAVXqA==",
+      "path": "hangfire.memorystorage/1.8.0",
+      "hashPath": "hangfire.memorystorage.1.8.0.nupkg.sha512"
     },
     "Hangfire.NetCore/1.8.9": {
       "type": "package",

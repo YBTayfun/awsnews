@@ -1,4 +1,5 @@
 ﻿using Hangfire;
+using Hangfire.MemoryStorage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,9 +16,8 @@ public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<BaseDbCont
         dbContextOptionsBuilder.UseSqlServer("Server=localhost;Database=IntTechBetaDb;User Id=SA;Password=Password123;MultipleActiveResultSets=true;Encrypt=false");
         var hangfireServiceCollection = new ServiceCollection();
 
-        hangfireServiceCollection.AddHangfire(configuration => configuration
-            .UseSqlServerStorage("Server=localhost;Database=IntTechBetaDb;User Id=SA;Password=Password123;MultipleActiveResultSets=true;Encrypt=false"));
-
+        hangfireServiceCollection.AddHangfire(config =>
+    config.UseMemoryStorage());
         hangfireServiceCollection.AddHangfireServer();
         return new(dbContextOptionsBuilder.Options);
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r2JZcuYpoukvsCz1Yt8qahwD5A0DejYWlmcojyLjAIh3Sfyi/3BzHF5GamRCfs6aLtJJSXdMO/UTqaYHLv7JiA==",
+  "dgSpecHash": "T3PpX1Aw5iDELTFv5kl0aZdzwpWbuh4oao3gHI4jtERmb1g0Tsu0ziHo2CYl2RRM2wOSeswiDWJ8XUEvvQ9CsQ==",
   "success": true,
   "projectFilePath": "/Users/yigit/GitHub/IntTech/src/intTechBeta/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/yigit/.nuget/packages/hangfire/1.8.9/hangfire.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.aspnetcore/1.8.9/hangfire.aspnetcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.core/1.8.9/hangfire.core.1.8.9.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/hangfire.memorystorage/1.8.0/hangfire.memorystorage.1.8.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.netcore/1.8.9/hangfire.netcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.sqlserver/1.8.9/hangfire.sqlserver.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

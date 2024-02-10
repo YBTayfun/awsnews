@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gomblrd9QC9xMt3j4rwx6kTpaDeQfPL+fVx+y4xpx9Htb0W+qg3BYvqXrhAsHG9estFbB6LWO3EFewGb/0HOIA==",
+  "dgSpecHash": "YwWT4z2Qv5SACtHCnMBWuwAF3ZqjIBUvvktKBZZJLKZgaWbTZGmqC4MUPyoRQwyAEhjG0qWN7n3riA/luvdzoQ==",
   "success": false,
   "projectFilePath": "/Users/yigit/GitHub/IntTech/tests/Application.Tests/Application.Tests.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "/Users/yigit/.nuget/packages/hangfire/1.8.9/hangfire.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.aspnetcore/1.8.9/hangfire.aspnetcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.core/1.8.9/hangfire.core.1.8.9.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/hangfire.memorystorage/1.8.0/hangfire.memorystorage.1.8.0.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.netcore/1.8.9/hangfire.netcore.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/hangfire.sqlserver/1.8.9/hangfire.sqlserver.1.8.9.nupkg.sha512",
     "/Users/yigit/.nuget/packages/mailkit/4.0.0/mailkit.4.0.0.nupkg.sha512",
